@@ -40,7 +40,8 @@
     "rehype-autolink-headings": "^7.1.0",
     "rehype-slug": "^6.0.0",
     "remark-external-links": "^9.0.1",
-    "remark-gfm": "^3.0.1"
+    "remark-gfm": "^3.0.1",
+    "web-vitals": "^5.1.0"
   },
   "scripts": {
     "develop": "gatsby develop",
