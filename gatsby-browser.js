@@ -8,7 +8,12 @@ import "prismjs/plugins/line-numbers/prism-line-numbers.css"
 import "prismjs/themes/prism-tomorrow.css"
 
 import CustomConfigProdiver from "./src/context/antd/CustomConfigProdiver"
+import reportWebVitals from "./src/reportWebVitals"
 
 export const wrapRootElement = ({ element }) => {
   return <CustomConfigProdiver element={element} />
+}
+
+export const onClientEntry = () => {
+  reportWebVitals()
 }
